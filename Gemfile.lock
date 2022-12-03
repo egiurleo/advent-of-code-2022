@@ -1,7 +1,7 @@
 PATH
   remote: ../advent_of_code_cli
   specs:
-    advent_of_code_cli (0.1.4)
+    advent_of_code_cli (0.1.5)
       thor (>= 1.2.0)
 
 GEM
@@ -43,13 +43,13 @@ GEM
     rubocop-ast (1.24.0)
       parser (>= 3.1.1.0)
     ruby-progressbar (1.11.0)
-    sorbet (0.5.10568)
-      sorbet-static (= 0.5.10568)
-    sorbet-runtime (0.5.10568)
-    sorbet-static (0.5.10568-universal-darwin-21)
-    sorbet-static-and-runtime (0.5.10568)
-      sorbet (= 0.5.10568)
-      sorbet-runtime (= 0.5.10568)
+    sorbet (0.5.10572)
+      sorbet-static (= 0.5.10572)
+    sorbet-runtime (0.5.10572)
+    sorbet-static (0.5.10572-universal-darwin-21)
+    sorbet-static-and-runtime (0.5.10572)
+      sorbet (= 0.5.10572)
+      sorbet-runtime (= 0.5.10572)
     spoom (1.1.13)
       sorbet (>= 0.5.9204)
       sorbet-runtime (>= 0.5.9204)
