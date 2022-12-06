@@ -114,9 +114,9 @@ module Day05
 
     sig { params(input: T::Array[String]).void }
     def initialize(input)
-      blank_line_index = T.must(input.index(""))
-      stack_lines = T.must(input[0 ... blank_line_index])
-      instruction_lines = T.must(input[blank_line_index + 1 ...])
+      blank_line_index = T.must(input.index(''))
+      stack_lines = T.must(input[0...blank_line_index])
+      instruction_lines = T.must(input[blank_line_index + 1...])
 
       @stacks = T.let(
         construct_stacks(stack_lines),
