@@ -1,7 +1,13 @@
 AllCops:
   NewCops: enable
 
+Lint/EmptyWhen:
+  Enabled: false
+
 Style/AccessorGrouping:
+  Enabled: false
+
+Style/BisectedAttrAccessor:
   Enabled: false
 
 Style/Documentation:
